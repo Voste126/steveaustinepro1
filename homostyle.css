@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("images/exteriorimageshop.jpg");
+    background-size: cover;
+    height: 109vh;
+
+}
+.icon,h2{
+    color: beige;
+    font-size: 35px;
+    font-family: Arial;
+    padding-top: 10px;
+    float: left;
+
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+.menu,ul,li {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-left: 120px;
+    margin-top: 27px;
+    font-size: 14px;
+    box-sizing: border-box;
+
+}
+.menu,ul,li{
+    color: white;
+    font-weight: 600;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+}
+.menu,ul,li:hover{
+    color: red;
+
+}
+.location iframe{
+    width: 100%;
+    border-radius: 150px;
+
+}
+.blog{
+    min-height: 100vh;
+    width: 250vh;
+    background-image: url("images/COFFEEdesign.jpeg");
+    background-position: left;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.first{
+    text-align: center;
+    color: orangered;
+    padding-top: 50px;
+    justify-items: center;
+
+}
+.barua{
+    text-align: center;
+    color: orangered;
+    padding-top: 50px;
+    justify-items: center;
+}
+.meals{
+    text-align: center;
+    color: orangered;
+    padding-top: 50px;
+    justify-items: center;
+}
+.date{
+    text-align: center;
+    color: orangered;
+    padding-top: 50px;
+    justify-items: center;
+}
+.blog,h2{
+    color: orangered;
+    text-align: center;
+    padding-top: 10px;
+}
+.location,h2{
+    color: darkred;
+    text-align: center;
+    padding-top: 10px;
+
+
+}
+

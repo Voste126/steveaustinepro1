@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 250vh;
+    background-image: url("images/COFFEEdesign.jpeg");
+    background-position: left;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+.nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav img {
+    width: 150px;
+    border-radius: 10px;
+}
+.nav-links{
+    flex: 1px;
+    text-align: left;
+
+}
+.nav-links,ul,li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+.nav-links,ul,li,a{
+    color: darkred;
+    font-size: 13px;
+}
+.nav-links,ul,li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav-links,ul,li:hover::after{
+    width: 100%;
+    border: 1px solid transparent;
+    transition: 1s;
+    background: red;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%,-40%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 40px;
+}
+.text-box p{
+    margin: 10px 0 40px ;
+}
+.button{
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+
+
+}
+.button:hover{
+    border: 1px solid white;
+    transition: 1s;
+    background: coral;
+}
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-links,ul,li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: transparent;
+        height: 100vh;
+        width: 200px;
+        top: 0px;
+        right: 0px;
+        text-align: left;
+        z-index: 2;
+    }
+
+}
+/*--------------course----------*/
+.drinks{
+    width:100%
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.p{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.column-col{
+    flex-basis: 31%;
+    background: gray;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+@media(max-width: 700px) {
+    .row{
+        flex-flow: column;
+    }
+
+}
+/*----------main-hotel----------*/
+.main{
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+    width: 80%;
+}
+.hotel-pic{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: lightyellow;
+
+}
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+
+}
+.facilities-col,img{
+    width: 100%;
+    border-radius: 10px;
+}
+.lady img{
+    min-height: 80vh;
+    width: 100%;
+    background-image: url("images/COFFEEdesign.jpeg");
+    background-position: left;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
